@@ -82,11 +82,22 @@ User Query → Deep Research Agent (background=True, stream=True)
 ## Project Structure
 
 ```
-├── research_app.py      # Main Streamlit application
-├── requirements.txt     # Python dependencies
-├── research_history/    # Persisted research sessions (auto-created)
-└── CLAUDE.md           # AI assistant guidance
+├── research_app.py              # Main Streamlit application
+├── deep_research_notebook.ipynb # Jupyter notebook version
+├── requirements.txt             # Python dependencies
+├── research_history/            # Persisted research sessions (auto-created)
+└── CLAUDE.md                    # AI assistant guidance
 ```
+
+### Prefer Notebooks?
+
+Open `deep_research_notebook.ipynb` in Jupyter or Google Colab for an interactive experience with examples for:
+- Streaming research with real-time output
+- Viewing agent reasoning
+- Follow-up questions
+- Structured output formatting
+- File search integration
+- Saving results to JSON
 
 ## Configuration
 

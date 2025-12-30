@@ -100,3 +100,9 @@ research_history/
 # IDE settings
 .idea/
 .vscode/
+
+# Social media drafts (not for public repo)
+SOCIAL_POST.md
+
+# Saved research from notebook
+research_*.json
